@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "939224244905",
+    "project_id": "startingfive-e7a1f",
+    "storage_bucket": "startingfive-e7a1f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939224244905:android:0b4d0862d73b100eecbfb8",
+        "android_client_info": {
+          "package_name": "com.startingfive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "939224244905-jt4veu7g57pf085tohla4cfck3uk4u5j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.startingfive",
+            "certificate_hash": "6a3c80197b267df78b1cadef0a5ac048c88b4d90"
+          }
+        },
+        {
+          "client_id": "939224244905-n50j57mna6udqfdo5eqocqhppk5vd9j7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.startingfive",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "939224244905-d3q2svjqil8bvnaftrfq19u4obohkkle.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOJ6PvhUfhuevxEVdi3ntiMd2z4YnAZOM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "939224244905-d3q2svjqil8bvnaftrfq19u4obohkkle.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

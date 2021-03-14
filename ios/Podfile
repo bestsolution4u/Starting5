@@ -1,0 +1,37 @@
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+require_relative '../node_modules/react-native/scripts/react_native_pods'
+
+platform :ios, '10.0'
+
+# Add the pods for the Firebase products you want to use in your app
+# For example, to use Firebase Authentication and Cloud Firestore
+pod 'Firebase/Auth'
+pod 'Firebase/Firestore'
+
+target 'StartingFive' do
+  config = use_native_modules!
+  use_react_native!(:path => config["reactNativePath"])
+
+  target 'StartingFiveTests' do
+    inherit! :complete
+    # Pods for testing
+  end
+
+  # Enables Flipper.
+  #
+  # Note that if you have use_frameworks! enabled, Flipper will not work and
+  # you should disable these next few lines.
+  use_flipper!({ 'Flipper-Folly' => '2.3.0' })
+  post_install do |installer|
+    flipper_post_install(installer)
+  end
+end
+
+target 'StartingFive-tvOS' do
+  # Pods for RNTodo-tvOS
+
+  target 'StartingFive-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+end
